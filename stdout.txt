@@ -1,0 +1,25 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.4, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- C:\Users\carlo\codenation\data-science-3\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\carlo\codenation\data-science-3
+collecting ... collected 4 items
+
+test_submit.py::test_q1 PASSED                                           [ 25%]
+test_submit.py::test_q2 PASSED                                           [ 50%]
+test_submit.py::test_q3 PASSED                                           [ 75%]
+test_submit.py::test_q4 PASSED                                           [100%]
+
+============================== warnings summary ===============================
+venv\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+venv\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+  C:\Users\carlo\codenation\data-science-3\venv\lib\site-packages\ipywidgets\widgets\widget_selection.py:9: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+    from collections import Mapping, Iterable
+
+venv\lib\site-packages\sklearn\utils\validation.py:71
+test_submit.py::test_q4
+  C:\Users\carlo\codenation\data-science-3\venv\lib\site-packages\sklearn\utils\validation.py:71: FutureWarning: Pass n_features_to_select=5 as keyword args. From version 0.25 passing these as positional arguments will result in an error
+    FutureWarning)
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+--- generated xml file: C:\Users\carlo\codenation\data-science-3\output.xml ---
+==================== 4 passed, 4 warnings in 8.65 seconds =====================
